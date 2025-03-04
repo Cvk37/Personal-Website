@@ -1,5 +1,5 @@
 import { Container, Typography, Box } from "@mui/material";
-import Chatbot from "@/app/components/Chatbot";
+import Chat from "@/app/components/chat"; // Make sure the path is correct
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       {/* Chatbot Section */}
       <Box id="chatbot" sx={{ py: 6 }}>
         <Typography variant="h3" sx={{ mb: 2 }}>Chat with Me</Typography>
-        <Chatbot />
+        <Chat />
       </Box>
     </Container>
   );
